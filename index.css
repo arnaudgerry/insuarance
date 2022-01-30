@@ -187,7 +187,7 @@ body{
     align-items: center;
     position: relative;
     bottom: 18px;
-    background-color: #fafafae0;
+    background-color: #fafafafd;
     /*border: 5px solid blue;*/
 }
 
@@ -314,4 +314,26 @@ i.fas, i.far{
     align-items: center;
     justify-content: center;
     text-align: center;
+ }
+
+ .industry{
+     /*border: 5px solid red;*/
+     height: 180px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     position: relative;
+     top: -20px;
+     padding-top: 100px;
+     background-color: #F8F8F9;
+ }
+
+ .industry h2{
+     color: #252B42;
+     margin-bottom: -5px;
+ }
+
+ .industry p{
+     color: #959595;
  }
