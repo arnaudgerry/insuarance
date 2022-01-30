@@ -337,3 +337,68 @@ i.fas, i.far{
  .industry p{
      color: #959595;
  }
+
+ .people{
+     height: 900px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     position: relative;
+     top: -80px;
+     background-color: #F8F8F9;
+     /*border: 5px solid red;*/
+ }
+
+ .people p{
+     color: #BCBCBC;
+ }
+
+ #user1{
+     height: 600px;
+     width: 420px;
+     border: 2px solid #EFEFEF;
+     margin-right: 25px;
+     background-color: #FFFFFF;
+ }
+
+#user1 img{
+     padding-top: 50px;
+     padding-bottom: 30px;
+ }
+
+#user2{
+    height: 600px;
+    width: 420px;
+    border: 2px solid #EFEFEF;
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: #FFFFFF;
+}
+
+#user2 img{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#user3{
+    height: 600px;
+    width: 420px;
+    border: 2px solid #EFEFEF;
+    margin-left: 25px;
+    background-color: #FFFFFF;
+}
+
+#user3 img{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.stars span{
+    color: #dace9c;
+}
+
+.checked{
+    color: #F2CE35!important;
+}
