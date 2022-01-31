@@ -552,10 +552,10 @@ i.fas, i.far{
 }
 
 .us{
-    height: 2500px;
+    height: 1600px;
     position: relative;
     background-color: #F8F8F9;
-    border: 5px solid red; 
+    /*border: 5px solid red;*/ 
 }
 
 .branches{
@@ -604,7 +604,7 @@ i.fas, i.far{
 }
 
 #booknow{
-    width: 70%;
+    width: 71%;
     height: 620px;
     background-color: #FFFFFF;
     /*border: 2px solid blue;*/
@@ -648,7 +648,53 @@ input[type=text], select{
     font-size: 15px;
 }
 
+.businessagency{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    bottom: 200px;
+}
 
+#consultagency{
+    height: 100px;
+    width: 30%;
+    position: relative;
+    left: 100px;
+    /*border: 2px solid red;*/
+}
+
+#consultagency p{
+    color: #949494;
+}
+
+#consultagency > p > span{
+    font-size: 28px;
+    font-weight: 700;
+    color: #292F46;
+}
+
+#btnn{
+    height: 80px;
+    width: 14%;
+    /*border: 2px solid red;*/
+    position: relative;
+    right: 50px;
+    bottom: -17px;
+}
+
+#contactusbtn{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #24A6F0;
+    color: rgb(247, 253, 246);
+    border: #24A6F0;
+}
+
+#contactusbtn:hover{
+    background-color: #252B42;
+}
 
 
 
