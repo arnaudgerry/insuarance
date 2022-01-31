@@ -338,7 +338,7 @@ i.fas, i.far{
      color: #959595;
  }
 
- .people{
+ .people {
      height: 900px;
      display: flex;
      flex-direction: row;
@@ -418,3 +418,112 @@ i.fas, i.far{
     padding-top: 50px;
     margin: 55px;
 }
+
+.subscribesection{
+    height: 120px;
+    position: relative;
+    top: -80px;
+    display: flex;
+    justify-content: center;
+    background-color: #F8F8F9;
+    /*border: 2px red solid;*/
+}
+
+.subscribesection .subscribe{
+    height: 110px;
+    width: 76%;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg,#254688 20%,#D22388 80%);
+    /*border: 2px solid yellow;*/
+    justify-content: space-between;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.subscribesection .subscribe .newsletter{
+    color: white;
+    padding-left: 35px;
+    font-size: 25px;
+}
+
+.subscribesection .subscribe .emailinput{
+    padding-right: 30px;
+    height: 55px;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: relative;
+    top: 25px;
+    right: 50px;
+    border: 2px solid white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/*.subscribesection .subscribe .emailinput .input{
+    height: 50px;
+    border: 2px solid red;
+}*/
+
+#inputemail{
+    height: 50px;
+    width: 200%;
+    border-color: transparent;
+}
+
+#subscribebtn{
+    height: 53px;
+    width: 30%;
+    position: relative;
+    bottom: 1px;
+    left: 186px;
+    background-color: #24A6F0;
+    border: 2px solid #24A6F0;border-radius: 0px 5px 5px 0px;
+    /*border: 2px solid orange;*/
+}
+
+#subscribebtn p{
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
+
+.pricing{
+    /*border: 5px solid red;*/
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: -80px;
+    padding-top: 100px;
+    background-color: #F8F8F9;
+}
+
+.pricing h2{
+    color: #252B42;
+    margin-bottom: -5px;
+}
+
+.pricing p{
+    color: #959595;
+}
+
+
+/*
+.subscribe{
+    height: 150px;
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: -80px;
+    border: 2px solid red;
+}
+
+.subscribe .newsletter{
+    height: 70px;
+    border: 2px solid yellow;
+}*/
