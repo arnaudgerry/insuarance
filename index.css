@@ -510,20 +510,184 @@ i.fas, i.far{
     color: #959595;
 }
 
-
-/*
-.subscribe{
-    height: 150px;
-    width: 80%;
+.charges{
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 740px;
     top: -80px;
-    border: 2px solid red;
+    background-color: #F8F8F9;
+    /*border: 2px solid red;*/
 }
 
-.subscribe .newsletter{
-    height: 70px;
-    border: 2px solid yellow;
-}*/
+#free, #premium{
+    position: relative;
+    top: 46px;
+    border: 2px solid #8DD0F5;
+    height: 690px;
+    width: 23%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #FFFFFF;
+}
+
+#standard{
+    position: relative;
+    border: 2px solid #8DD0F5;
+    height: 736px;
+    width: 23%;
+    margin-right: 2px;
+    margin-left: 2px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #252B42;
+}
+
+/*Filled white space*/
+.filler{
+    /*border: 2px solid green;*/
+    height: 100px;
+    background-color: #F8F8F9;
+    position: relative;
+    margin-top: -80px;  
+}
+
+.us{
+    height: 2500px;
+    position: relative;
+    background-color: #F8F8F9;
+    border: 5px solid red; 
+}
+
+.branches{
+    height: 900px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    justify-content: center;
+    background-color: #252B42;
+    /*border: 2px solid yellow;*/
+}
+
+#statement{
+    color: white;
+    margin-right: 50px;
+}
+
+#statement span{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#map{
+    margin-left: 50px;
+}
+
+.bookappointment{
+    height: 620px;
+    width: 50%;
+    position: relative;
+    top: -310px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /*border: 2px solid green;*/
+}
+
+#family{
+    width: 30%;
+    height: 620px;
+    background-image: url("./images/contact.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*border: 2px solid orange;*/
+}
+
+#booknow{
+    width: 70%;
+    height: 620px;
+    background-color: #FFFFFF;
+    /*border: 2px solid blue;*/
+}
+
+#booknow h2{
+    text-align: center;
+    color: #262C43;
+    padding-bottom: 2px;
+    padding-top: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 40px;
+}
+
+input[type=text], select{
+    width: 85%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    background-color: rgb(249, 249, 249);
+    color: rgb(162, 162, 162);
+    border: 0.5px solid rgb(162, 162, 162);
+}
+
+#booked{
+    width: 85%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: #24A6F0;
+    border: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
