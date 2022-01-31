@@ -604,7 +604,7 @@ i.fas, i.far{
 }
 
 #booknow{
-    width: 71%;
+    width: 72%;
     height: 620px;
     background-color: #FFFFFF;
     /*border: 2px solid blue;*/
@@ -694,6 +694,59 @@ input[type=text], select{
 
 #contactusbtn:hover{
     background-color: #252B42;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 45px;
+    background-color: #FFFFFF;
+    /*border: 2px solid red;*/
+}
+
+.footer .company, .legal, .features, .resources, .intouch{
+    height: 250px;
+    width: 12%;
+    font-size: 18px;
+    position: relative;
+    left: 75px;
+    color: #838383;
+    background-color: #FFFFFF;
+    /*border: 2px solid orange;*/
+}
+
+.footer h3{
+    color: #32384E;
+    position: relative;
+    left: 8px;
+}
+
+
+.footer .intouch{
+    width: 20%;
+}
+
+.footer .intouch span{
+    color: #24A6F0;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+/*.footer ul{
+    position: relative;
+}*/
+
+.footer li{
+    list-style: none;
+    position: relative;
+    left: -33px;
+    padding-bottom: 20px;
+}
+
+.footer li:hover{
+    color: rgb(37, 43, 66);
 }
 
 
